@@ -1,4 +1,6 @@
-# Awesome Loopback
+# Awesome Loopback [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+>A collection of awesome things regarding loopback
+
 
 ## Core
 * [loopback](https://github.com/strongloop/loopback)
@@ -10,14 +12,14 @@
 * [loopback-connector-mysql](https://github.com/strongloop/loopback-connector-mysql)
 * [loopback-connector-postgresql](https://github.com/strongloop/loopback-connector-postgresql)
 * [loopback-connector-rest](https://github.com/strongloop/loopback-connector-rest)
-* [loopback-bacn](https://github.com/strongloop/loopback-bacn)
+* [loopback-connector-jsonrpc](https://github.com/strongloop/loopback-connector-jsonrpc)
 
 ### Third Party
 * Elastic Search
-  * drakerian - [loopback-connector-elastic-search](https://github.com/drakerian/loopback-connector-elastic-search)
-  * offlinehacker - [loopback-connector-elasticsearch](https://github.com/offlinehacker/loopback-connector-elasticsearch)
-* yagobski - [loopback-connector-elastic](https://github.com/yagobski/loopback-connector-elastic)
-* claylo - [loopback-connector-dynamodb](https://github.com/claylo/loopback-connector-dynamodb)
+  * strongloop-community [loopback-connector-es](https://github.com/strongloop-community/loopback-connector-elastic-search) (active)
+  * drakerian - [loopback-connector-elastic-search](https://github.com/drakerian/loopback-connector-elastic-search) (abandoned 2014-10-01)
+  * offlinehacker - [loopback-connector-elasticsearch](https://github.com/offlinehacker/loopback-connector-elasticsearch) (abandoned 2014-08-06)
+  * yagobski - [loopback-connector-elastic](https://github.com/yagobski/loopback-connector-elastic) (abandoned 2015-03-16)
 * IndustrialCloudSolutions - [loopback-connector-neo4j](https://github.com/IndustrialCloudSolutions/loopback-connector-neo4j)
 * timosaikkonen - [loopback-search-index](https://github.com/timosaikkonen/loopback-search-index)
 * Couchbase
@@ -33,14 +35,11 @@
   * yoobic - [loopback-connector-rethinkdbdash](https://github.com/Yoobic/loopback-connector-rethinkdbdash)
 * raymondfeng - [loopback-connector-tingodb](https://github.com/raymondfeng/loopbacsearchk-connector-tingodb)
 * jensonzhao - [loopback-connector-saphana](https://github.com/jensonzhao/loopback-connector-saphana)
-* r3dm - [loopback-connector-localForage](https://github.com/r3dm/loopback-connector-localForage)
 * vadiraja - [loopback-connector-googledata](https://github.com/vadiraja/loopback-connector-googledata)
 * Kafka
   * IndustrialCloudSolutions - [loopback-connector-kafka](https://github.com/IndustrialCloudSolutions/loopback-connector-kafka)
   * haio - [loopback-connector-kafka](https://github.com/haio/loopback-connector-kafka)
 * austinsc - [loopback-connector-ravendb](https://github.com/austinsc/loopback-connector-ravendb)
-* ramyaraji - [loopback-connector-db2](https://github.com/ramyaraji/loopback-connector-db2)
-* ecowden - [loopback-connector-knex](https://github.com/ecowden/loopback-connector-knex)
 * Synerzip - [loopback-connector-redis](https://github.com/Synerzip/loopback-connector-redis)
 * timosaikkonen - [loopback-connector-solr](https://github.com/timosaikkonen/loopback-connector-solr)
 * ryedin - [loopback-connector-keystonejs](https://github.com/ryedin/loopback-connector-keystonejs)
@@ -62,7 +61,9 @@
 * peerbelt - [loopback-connector-cassandra](https://github.com/peerbelt/loopback-connector-cassandra)
 * raibutera - [loopback-connector-orchestrate](https://github.com/raibutera/loopback-connector-orchestrate)
 * stormpath - [loopback-connector-stormpath](https://github.com/stormpath/loopback-connector-stormpath)
-* strongloop - [loopback-connector-jsonrpc](https://github.com/strongloop/loopback-connector-jsonrpc)
+* duffn - [loopback-connector-redshift](https://github.com/duffn/loopback-connector-redshift)
+* dyaa - [loopback-connector-firestore](https://github.com/dyaa/loopback-connector-firestore)
+* yantrashala - [loopback-connector-flexirest](https://github.com/yantrashala/loopback-connector-flexirest)
 
 ## Enterprise Connectors
 * [loopback-connector-oracle](https://github.com/strongloop/loopback-connector-oracle)
@@ -71,15 +72,19 @@
 * [loopback-connector-atg](https://github.com/strongloop/loopback-connector-atg)
 
 ## Components
+* [loopback-component-passport](https://github.com/strongloop/loopback-component-passport)
 * [loopback-component-push](https://github.com/strongloop/loopback-component-push)
 * [loopback-component-storage](https://github.com/strongloop/loopback-component-storage)
-* [loopback-component-passport](https://github.com/strongloop/loopback-component-passport)
-* [loopback-component-satellizer](https://github.com/moooink/loopback-component-satellizer)
 
 ### Third Party
+* moooink - [loopback-component-satellizer](https://github.com/moooink/loopback-component-satellizer)
+* BoLaMN - [loopback-component-admin](https://github.com/BoLaMN/loopback-component-admin)
 * evenemento - [loopback-component-gcloud](https://github.com/evenemento/loopback-component-gcloud)
 * evenemento - [loopback-component-mandrill](https://github.com/evenemento/loopback-component-mandrill)
 * evenemento - [loopback-component-appengine](https://github.com/evenemento/loopback-component-appengine)
+* jdrouet - [loopback-component-storage-mongo](https://github.com/jdrouet/loopback-component-storage-mongo)
+* jdrouet - [loopback-component-storage-postgres](https://github.com/jdrouet/loopback-component-storage-postgres)
+* pbhadauria2000 - [loopback-component-logger](https://github.com/yantrashala/loopback-component-logger)
 
 ## Client SDKs
 * [loopback-sdk-ios](https://github.com/strongloop/loopback-sdk-ios)
@@ -97,6 +102,7 @@
 * [loopback-explorer](https://github.com/strongloop/loopback-explorer)
 * [loopback-workspace](https://github.com/strongloop/loopback-workspace)
 * [generator-loopback](https://github.com/strongloop/generator-loopback)
+* [loopback-console](https://github.com/GovRight/loopback-console)
 
 ## Examples
 * [loopback-example](https://github.com/strongloop/loopback-example)
@@ -117,6 +123,24 @@
 ## Middleware
 * paulomcnally - [loopback-dasherize](https://github.com/paulomcnally/loopback-dasherize)
 
+## Mixins
+* FoKo - [loopback-ds-sanitizer-mixin](https://github.com/FoKo/loopback-ds-sanitizer-mixin)
+* clarkbw - [loopback-ds-timestamp-mixin](https://github.com/clarkbw/loopback-ds-timestamp-mixin)
+* gausie - [loopback-softdelete-mixin](https://github.com/gausie/loopback-softdelete-mixin)
+* csbenjamin - [loopback-tree-mixin](https://github.com/csbenjamin/loopback-tree-mixin)
+* exromany - [loopback-counts-mixin](https://github.com/exromany/loopback-counts-mixin)
+* jonathan-casarrubias - [loopback-stats-mixin](https://github.com/jonathan-casarrubias/loopback-stats-mixin)
+* fullcube - [loopback-ds-paginate-mixin](https://github.com/fullcube/loopback-ds-paginate-mixin)
+* fullcube - [loopback-ds-readonly-mixin](https://github.com/fullcube/loopback-ds-readonly-mixin)
+* fullcube - [loopback-ds-calculated-mixin](https://github.com/fullcube/loopback-ds-calculated-mixin)
+* fullcube - [loopback-ds-changed-mixin](https://github.com/fullcube/loopback-ds-changed-mixin)
+* bootenv - [loopback-ds-ips-mixin](https://github.com/bootenv/loopback-ds-ips-mixin)
+* mitchmyburgh - [loopback-increment-mixin](https://github.com/mitchmyburgh/loopback-increment-mixin)
+
+## Testing
+* InCuca - [loopback-chai](https://github.com/InCuca/loopback-chai)
+* smlsunxie - [loopback-tdd-sample](https://github.com/smlsunxie/loopback-tdd-sample)
+
 ## Other
 * Rikhart - [loopback-slug](https://github.com/Rikhart/loopback-slug)
 * evenemento - [loopback-promisify](https://github.com/evenemento/loopback-promisify)
@@ -135,15 +159,16 @@
 * violet-day - [loopback-angular-seed](https://github.com/violet-day/loopback-angular-seed)
 * mschmulen - [loopback-mobile-node-backend-on-heroku](https://github.com/mschmulen/loopback-mobile-node-backend-on-heroku)
 * marshill - [lb_check](https://github.com/marshill/lb_check)
+* slahiri - [loopback-ssl](https://github.com/yantrashala/loopback-ssl)
+* InCuca - [vue-loopback](https://github.com/InCuca/vue-loopback)
 
 ## Presentations
 * jewelsjacobs - [mean-loopback-presentation](https://github.com/jewelsjacobs/mean-loopback-presentation)
 
-##Projects
-* beeman - [loopback-angular-admin](https://github.com/beeman/loopback-angular-admin)
+## Projects
+* beeman - [colmena-cms](https://github.com/colmena/colmena-cms)
 * rblalock - [lb_cms](https://github.com/rblalock/lb_cms)
 * cheshire-howe - [blog-loopback](https://github.com/cheshire-howe/blog-loopback)
-* smlsunxie - [loopback-tdd-sample](https://github.com/smlsunxie/loopback-tdd-sample)
 * justinwyer - [hubot-loopback-adapter](https://github.com/justinwyer/hubot-loopback-adapter)
 * beeman - [loopback-angular-material](https://github.com/beeman/loopback-angular-material)
 * wittydeveloper - [loopback-talk-chat-app](https://github.com/wittydeveloper/loopback-talk-chat-app)
@@ -156,11 +181,13 @@
 * istinspring - [ngGrablab](https://github.com/istinspring/ngGrablab)
 * jdgarvey - [sermon-api](https://github.com/jdgarvey/sermon-api)
 * mbenaissa - [LB](https://github.com/mbenaissa/LB)
+* Ritchie Martori - [loopback-foodme](https://github.com/ritch/loopback-foodme)
+* FreeCodeCamp - [FreeCodeCamp](https://github.com/FreeCodeCamp/FreeCodeCamp)
 
 ## Videos
-* Ritchie Martori - StrongLoop [Getting Started with LoopBack....](https://www.youtube.com/watch?v=b_ZnifGdgZY)
 * Shubhra Kar - StrongLoop [loopBack.io ..](https://www.youtube.com/watch?v=Rip_3nbk7Rw)
 * Shubhra Kar - StrongLoop [LoopBack Fundamentals Install Build APIs...](https://www.youtube.com/watch?v=wW_jSwVcXuM)
+* Bram Borggreve - [Build a Node JS REST API with LoopBack](https://egghead.io/courses/build-a-node-js-rest-api-with-loopback)
 * Other - [https://www.google.lk/search?q=loopback&tbm=vid](https://www.google.lk/search?q=loopback&tbm=vid)
 
 ## License
